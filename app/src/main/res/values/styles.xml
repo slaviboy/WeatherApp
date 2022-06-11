@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- This style is only used for the preview layouts -->
+    <style name="Widget.AppWidget.AppWidget.Container" parent="android:Widget">
+        <item name="android:id">@android:id/background</item>
+        <item name="android:background">?android:attr/colorBackground</item>
+        <item name="android:padding">2dp</item>
+    </style>
+</resources>

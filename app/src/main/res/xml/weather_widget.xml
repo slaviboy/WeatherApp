@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Metadata for the first Glance widget.
+At the moment, specifying a layout from the android:initialLayout is needed.
+-->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/saturday"
+    android:minWidth="180dp"
+    android:minHeight="50dp"
+    android:initialLayout="@layout/widget_loading"
+    android:previewImage="@drawable/ic_b"
+    android:previewLayout="@layout/weather_widget_preview"
+    android:resizeMode="horizontal|vertical"
+    android:targetCellWidth="3"
+    android:targetCellHeight="1"
+    android:widgetCategory="home_screen" />

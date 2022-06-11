@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="SplashTheme" parent="android:Theme.Material.Light.NoActionBar.Fullscreen">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="android:colorBackground">@color/transparent</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:navigationBarColor">@color/transparent</item>
+        <!--<item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>-->
+
+        <item name="windowSplashScreenBackground">@color/transparent</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_empty</item>
+        <item name="windowSplashScreenAnimationDuration">50</item>
+        <item name="postSplashScreenTheme">@android:style/Theme.Material.Light.NoActionBar.Fullscreen</item>
+    </style>
+</resources>
