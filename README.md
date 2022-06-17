@@ -20,6 +20,7 @@ Data about the cities is retrived from [local database](https://github.com/slavi
 2) Jetpack Compose
 3) Hilt for DI(Dependency Injection)
 4) Retrofit for API calls
+5) Room DB for caching
 
 ## To do
 1) Add effects for different weather: Rain, Snow, Sunny, Mist...
