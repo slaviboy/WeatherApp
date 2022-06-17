@@ -1,5 +1,5 @@
 # WeatherApp 
-Weather App written in Kotlin that is using Jetpack Compose
+Weather App written in Kotlin, using Jetpack Compose
 
 <p align="center">
     <img src="https://github.com/slaviboy/RepositoryImages/blob/main/apps/weather_app_home.png?raw=true" alt="Image"   />
