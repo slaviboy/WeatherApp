@@ -16,9 +16,9 @@ _*You can check the demo [here](https://www.youtube.com/watch?v=O0efgKq0xOI).*_
 Data about the cities is retrived from [local database](https://github.com/slaviboy/WeatherApp/tree/master/app/src/main/assets/database) that way it is faster when searching for particular city. I have generated the database as a **.db** file(SQLite DB), you can open or edit the data using this free tool [DB Browser for SQLite](https://github.com/sqlitebrowser/sqlitebrowser).
 
 ## Overview
-1) Using MVVM pattern
+1) MVVM(Model–view–viewmode) pattern
 2) Jetpack Compose
-3) Hilt for (Dependency Injection)DI
+3) Hilt for DI(Dependency Injection)
 4) Retrofit for API calls
 
 ## To do
