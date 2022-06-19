@@ -24,4 +24,4 @@ Data about the cities is retrived from [local database](https://github.com/slavi
 
 ## To do
 1) Add effects for different weather: Rain, Snow, Sunny, Mist...
-2) Add Weather widget fro the app
+2) Add Weather widget for the app
