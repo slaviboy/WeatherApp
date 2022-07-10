@@ -1,5 +1,5 @@
 # WeatherApp 
-Weather App written in Kotlin that is using Jetpack Compose
+Weather App written in Kotlin, using Jetpack Compose
 
 <p align="center">
     <img src="https://github.com/slaviboy/RepositoryImages/blob/main/apps/weather_app_home.png?raw=true" alt="Image"   />
@@ -14,6 +14,14 @@ WEATHER_APP_KEY = your_api_key
 _*You can check the demo [here](https://www.youtube.com/watch?v=O0efgKq0xOI).*_
 
 Data about the cities is retrived from [local database](https://github.com/slaviboy/WeatherApp/tree/master/app/src/main/assets/database) that way it is faster when searching for particular city. I have generated the database as a **.db** file(SQLite DB), you can open or edit the data using this free tool [DB Browser for SQLite](https://github.com/sqlitebrowser/sqlitebrowser).
+
+## Overview
+1) MVVM(Model–view–viewmode) pattern
+2) Jetpack Compose
+3) Hilt for DI(Dependency Injection)
+4) Retrofit for API calls
+5) Room DB for caching
+
 ## To do
 1) Add effects for different weather: Rain, Snow, Sunny, Mist...
-2) Add Weather widget fro the app
+2) Add Weather widget for the app
