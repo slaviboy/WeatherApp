@@ -61,6 +61,7 @@ data class SunriseSunsetInfo(
             currentTime > sunset -> sunset
             else -> currentTime
         }
+        if(currentInRange == sunrise) return 0f
         return ((currentInRange - sunrise) / (sunset - sunrise).toFloat()) * 180f
     }
 

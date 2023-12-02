@@ -23,7 +23,6 @@ import androidx.activity.compose.setContent
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.ExperimentalFoundationApi
-import androidx.compose.foundation.gestures.LocalOverScrollConfiguration
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.offset
@@ -107,9 +106,7 @@ class MainActivity : ComponentActivity() {
             }
 
             // prevent the scroll bounce effect
-            CompositionLocalProvider(
-                LocalOverScrollConfiguration provides null
-            ) {
+            CompositionLocalProvider() {
 
                 // for displaying snackbar for messages
                 Scaffold(

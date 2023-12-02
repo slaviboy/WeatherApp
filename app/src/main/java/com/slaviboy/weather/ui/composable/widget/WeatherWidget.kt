@@ -16,15 +16,15 @@
 */
 package com.slaviboy.weather.ui.composable.widget
 
-import androidx.compose.material.Text
-import androidx.compose.runtime.Composable
+import android.content.Context
+import androidx.glance.GlanceId
 import androidx.glance.appwidget.GlanceAppWidget
 import androidx.glance.appwidget.GlanceAppWidgetReceiver
 
 class WeatherWidget(private val name: String) : GlanceAppWidget() {
-    @Composable
-    override fun Content() {
-        Text(text = "Hello $name")
+
+    override suspend fun provideGlance(context: Context, id: GlanceId) {
+
     }
 }
 
